@@ -4,9 +4,9 @@ Capacitor community plugin for native market for Play Store/App Store.
 
 ## Maintainers
 
-| Maintainer | GitHub | Social | Sponsoring Company |
-| -----------| -------| -------| -------------------|
-| Priyank Patel | [priyankpat](https://github.com/priyankpat) | [@priyankpat_](https://twitter.com/priyankpat_) | Ionic |
+| Maintainer      | GitHub                              | Social                                                | Sponsoring Company |
+| --------------- | ----------------------------------- | ----------------------------------------------------- | ------------------ |
+| Martin Donadieu | [riderx](https://github.com/riderx) | [@martindonadieu](https://twitter.com/martindonadieu) | Ionic              |
 
 Maintenance Status: Actively Maintained
 
@@ -15,13 +15,13 @@ Maintenance Status: Actively Maintained
 To use npm
 
 ```bash
-npm install @capacitor-community/native-market
+npm install native-market
 ```
 
 To use yarn
 
 ```bash
-yarn add @capacitor-community/native-market
+yarn add native-market
 ```
 
 Sync native files
@@ -32,25 +32,7 @@ npx cap sync
 
 iOS Platform: No further action required.
 
-Android Platform: Register the plugin in your main activity:
-
-```java
-import com.getcapacitor.community.nativemarket.NativeMarket;
-
-public class MainActivity extends BridgeActivity {
-  @Override
-  public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-
-    // Initializes the Bridge
-    this.init(savedInstanceState, new ArrayList<Class<? extends Plugin>>() {{
-      // Additional plugins you've installed go here
-      // Ex: add(TotallyAwesomePlugin.class);
-      add(NativeMarket.class);
-    }});
-  }
-}
-```
+Android Platform: No further action required.
 
 ## Configuration
 
@@ -58,18 +40,18 @@ No configuration required for this plugin
 
 ## Supported methods
 
-| Name  | Android | iOS | Web
-| :---- | :--- | :--- | :--- |
-| openStoreListing | ✅ | ✅ | ❌ 
-| openDevPage | ✅ | ❌ | ❌ 
-| openCollection | ✅ | ❌ | ❌ 
-| openEditorChoicePage | ✅ | ❌ | ❌ 
-| search | ✅ | ✅ | ❌ 
+| Name                 | Android | iOS | Web |
+| :------------------- | :------ | :-- | :-- |
+| openStoreListing     | ✅      | ✅  | ❌  |
+| openDevPage          | ✅      | ❌  | ❌  |
+| openCollection       | ✅      | ❌  | ❌  |
+| openEditorChoicePage | ✅      | ❌  | ❌  |
+| search               | ✅      | ✅  | ❌  |
 
 ## Usage
 
 ```typescript
-import { Plugins } from '@capacitor/core';
+import { Plugins } from "@capacitor/core";
 
 const { NativeMarket } = Plugins;
 
@@ -79,7 +61,7 @@ const { NativeMarket } = Plugins;
  * @returns void
  */
 NativeMarket.openStoreListing({
-  appId: 'com.example.app',
+  appId: "com.example.app",
 });
 
 /**
@@ -88,7 +70,7 @@ NativeMarket.openStoreListing({
  * @returns void
  */
 NativeMarket.openDevPage({
-  devId: '5700313618786177705',
+  devId: "5700313618786177705",
 });
 
 /**
@@ -97,7 +79,7 @@ NativeMarket.openDevPage({
  * @returns void
  */
 NativeMarket.openCollection({
-  name: 'featured',
+  name: "featured",
 });
 
 /**
@@ -106,7 +88,7 @@ NativeMarket.openCollection({
  * @returns void
  */
 NativeMarket.openEditorChoicePage({
-  editorChoice: 'editorial_fitness_apps_us',
+  editorChoice: "editorial_fitness_apps_us",
 });
 
 /**
@@ -115,6 +97,6 @@ NativeMarket.openEditorChoicePage({
  * @returns void
  */
 NativeMarket.search({
-  terms: 'capacitor',
+  terms: "capacitor",
 });
 ```
