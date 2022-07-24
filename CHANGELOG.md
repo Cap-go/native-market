@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/riderx/native-market/compare/v1.0.2...v1.0.3) (2022-07-24)
+
+
+### Bug Fixes
+
+* cannot use normal token ([0b4e158](https://github.com/riderx/native-market/commit/0b4e1587e2498eae149b6aa2d700f1a7636234ea))
+
 ### 1.0.2 (2022-07-24)
 
 
