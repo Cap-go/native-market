@@ -15,13 +15,13 @@ Maintenance Status: Actively Maintained
 To use npm
 
 ```bash
-npm install native-market
+npm install @capgo/native-market
 ```
 
 To use yarn
 
 ```bash
-yarn add native-market
+yarn add @capgo/native-market
 ```
 
 Sync native files
@@ -51,9 +51,7 @@ No configuration required for this plugin
 ## Usage
 
 ```typescript
-import { Plugins } from "@capacitor/core";
-
-const { NativeMarket } = Plugins;
+import { NativeMarket } from "@capgo/native-market";
 
 /**
  * This method will launch link in Play/App Store.
@@ -100,3 +98,95 @@ NativeMarket.search({
   terms: "capacitor",
 });
 ```
+
+<docgen-api>
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### openStoreListing(...)
+
+```typescript
+openStoreListing(options: { appId: string; }) => Promise<void>
+```
+
+This method will launch link in Play/App Store.
+
+| Param         | Type                            |
+| ------------- | ------------------------------- |
+| **`options`** | <code>{ appId: string; }</code> |
+
+**Since:** 1.0.0
+
+---
+
+### openDevPage(...)
+
+```typescript
+openDevPage(options: { devId: string; }) => Promise<void>
+```
+
+This method will deep-link directly to an Play/App store listing page.
+
+Only in Android.
+
+| Param         | Type                            |
+| ------------- | ------------------------------- |
+| **`options`** | <code>{ devId: string; }</code> |
+
+**Since:** 1.0.0
+
+---
+
+### openCollection(...)
+
+```typescript
+openCollection(options: { name: string; }) => Promise<void>
+```
+
+This method will link users to a collection or top charts.
+Only in Android.
+
+| Param         | Type                           |
+| ------------- | ------------------------------ |
+| **`options`** | <code>{ name: string; }</code> |
+
+**Since:** 1.0.0
+
+---
+
+### openEditorChoicePage(...)
+
+```typescript
+openEditorChoicePage(options: { editorChoice: string; }) => Promise<void>
+```
+
+This method will link users to Editor's choice page.
+
+Only in Android.
+
+| Param         | Type                                   |
+| ------------- | -------------------------------------- |
+| **`options`** | <code>{ editorChoice: string; }</code> |
+
+**Since:** 1.0.0
+
+---
+
+### search(...)
+
+```typescript
+search(options: { terms: string; }) => Promise<void>
+```
+
+This method will link users to custom search query.
+
+Only in Android.
+
+| Param         | Type                            |
+| ------------- | ------------------------------- |
+| **`options`** | <code>{ terms: string; }</code> |
+
+**Since:** 1.0.0
+
+---
+
+</docgen-api>

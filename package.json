@@ -6,9 +6,10 @@
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && npm run docgen && tsc",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
+    "docgen": "docgen --api NativeMarketPlugin --output-readme README.md --output-json dist/docs.json",
     "prepublishOnly": "npm run build",
     "npm-publish": "np"
   },
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@capacitor/android": "^3.3.4",
     "@capacitor/cli": "^3.3.4",
+    "@capacitor/docgen": "^0.2.0",
     "@capacitor/ios": "^3.3.4",
     "@types/node": "^17.0.8",
     "husky": "^4.2.5",
