@@ -6,7 +6,7 @@ Capacitor community plugin for native market for Play Store/App Store.
 
 | Maintainer      | GitHub                              | Social                                                | Sponsoring Company |
 | --------------- | ----------------------------------- | ----------------------------------------------------- | ------------------ |
-| Martin Donadieu | [riderx](https://github.com/riderx) | [@martindonadieu](https://twitter.com/martindonadieu) | Ionic              |
+| Martin Donadieu | [riderx](https://github.com/riderx) | [@martindonadieu](https://twitter.com/martindonadieu) |               |
 
 Maintenance Status: Actively Maintained
 
