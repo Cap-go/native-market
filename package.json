@@ -41,7 +41,7 @@
     "dist/",
     "ios/",
     "android/",
-    "NativeMarket.podspec"
+    "CapgoNativeMarket.podspec"
   ],
   "keywords": [
     "capacitor",
