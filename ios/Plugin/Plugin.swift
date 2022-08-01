@@ -19,11 +19,11 @@ public class NativeMarket: CAPPlugin {
                 if UIApplication.shared.canOpenURL(appUrl!) {
                     if #available(iOS 10.0, *) {
                         UIApplication.shared.open(appUrl!, options: [:]) { (success) in
-                            call.success()
+                            call.resolve()
                         }
                     } else {
                         UIApplication.shared.openURL(appUrl!)
-                        call.success()
+                        call.resolve()
                     }
                 }
             }
@@ -33,15 +33,15 @@ public class NativeMarket: CAPPlugin {
     }
     
     @objc func openDevPage(_ call: CAPPluginCall) {
-        call.success() // TODO: Implement
+        call.resolve() // TODO: Implement
     }
     
     @objc func openCollection(_ call: CAPPluginCall) {
-        call.success() // TODO: Implement
+        call.resolve() // TODO: Implement
     }
     
     @objc func openEditorChoicePage(_ call: CAPPluginCall) {
-        call.success() // TODO: Implement
+        call.resolve() // TODO: Implement
     }
     
     @objc func search(_ call: CAPPluginCall) {
@@ -54,11 +54,11 @@ public class NativeMarket: CAPPlugin {
             if UIApplication.shared.canOpenURL(appUrl!) {
                 if #available(iOS 10.0, *) {
                     UIApplication.shared.open(appUrl!, options: [:]) { (success) in
-                        call.success()
+                        call.resolve()
                     }
                 } else {
                     UIApplication.shared.openURL(appUrl!)
-                    call.success()
+                    call.resolve()
                 }
             }
         } else {
