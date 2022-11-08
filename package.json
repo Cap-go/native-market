@@ -16,7 +16,7 @@
   "author": "Martin Donadieu <martindonadieu@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/core": "^3.3.2"
+    "@capacitor/core": "^3.8.0"
   },
   "devDependencies": {
     "@capacitor/android": "^3.3.4",
