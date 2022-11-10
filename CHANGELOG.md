@@ -2,42 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.10](https://github.com/riderx/native-market/compare/v1.0.9...v1.0.10) (2022-11-10)
+
+### Bug Fixes
+
+- app store appID ([08e44b3](https://github.com/riderx/native-market/commit/08e44b359b312e1c98110e13447263dbc5721fc3))
+
 ### [1.0.9](https://github.com/riderx/native-market/compare/v1.0.8...v1.0.9) (2022-08-29)
 
 ### [1.0.8](https://github.com/riderx/native-market/compare/v1.0.7...v1.0.8) (2022-08-21)
 
-
 ### Bug Fixes
 
-* readme ([7dfac5b](https://github.com/riderx/native-market/commit/7dfac5b558c6373b980d3288793920bac41d9a25))
+- readme ([7dfac5b](https://github.com/riderx/native-market/commit/7dfac5b558c6373b980d3288793920bac41d9a25))
 
 ### [1.0.7](https://github.com/riderx/native-market/compare/v1.0.6...v1.0.7) (2022-08-01)
 
-
 ### Bug Fixes
 
-* deprecated ([8819e5a](https://github.com/riderx/native-market/commit/8819e5a3e0e651902230b445d8f7eaf606dfa731))
+- deprecated ([8819e5a](https://github.com/riderx/native-market/commit/8819e5a3e0e651902230b445d8f7eaf606dfa731))
 
 ### [1.0.6](https://github.com/riderx/native-market/compare/v1.0.5...v1.0.6) (2022-07-31)
 
-
 ### Bug Fixes
 
-* missing file after rename ([c07f681](https://github.com/riderx/native-market/commit/c07f681ecf621563d1637658aa0b6534785c1308))
+- missing file after rename ([c07f681](https://github.com/riderx/native-market/commit/c07f681ecf621563d1637658aa0b6534785c1308))
 
 ### [1.0.5](https://github.com/riderx/native-market/compare/v1.0.4...v1.0.5) (2022-07-28)
 
-
 ### Bug Fixes
 
-* issue after renaming ([221e1ac](https://github.com/riderx/native-market/commit/221e1ac29d812f00eae8edae97e3eeb8158556d7))
+- issue after renaming ([221e1ac](https://github.com/riderx/native-market/commit/221e1ac29d812f00eae8edae97e3eeb8158556d7))
 
 ### [1.0.4](https://github.com/riderx/native-market/compare/v1.0.3...v1.0.4) (2022-07-24)
 
-
 ### Bug Fixes
 
-* org ([cbd1e6a](https://github.com/riderx/native-market/commit/cbd1e6a246b6c5cb2ec263b478d21dc6f1ee76f7))
+- org ([cbd1e6a](https://github.com/riderx/native-market/commit/cbd1e6a246b6c5cb2ec263b478d21dc6f1ee76f7))
 
 ### [1.0.3](https://github.com/riderx/native-market/compare/v1.0.2...v1.0.3) (2022-07-24)
 
