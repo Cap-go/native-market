@@ -8,7 +8,7 @@ export interface NativeMarketPlugin {
    *
    * @since 1.0.0
    */
-  openStoreListing(options: { appId: string }): Promise<void>;
+  openStoreListing(options: { appStoreId: number, playStoreId: string }): Promise<void>;
   /**
    * This method will deep-link directly to an Play/App store listing page.
    *

@@ -9,8 +9,8 @@ import Capacitor
 public class NativeMarket: CAPPlugin {
     
     @objc func openStoreListing(_ call: CAPPluginCall) {
-        if call.hasOption("appId") {
-            let appId = call.getString("appId")
+        if call.hasOption("appStoreId") {
+            let appId = call.getString("appStoreId")
             
             let url = "itms-apps://itunes.apple.com/app/" + appId!
             let appUrl = URL(string: url)
@@ -28,7 +28,7 @@ public class NativeMarket: CAPPlugin {
                 }
             }
         } else {
-            call.reject("appId is missing")
+            call.reject("appStoreId is missing")
         }
     }
     

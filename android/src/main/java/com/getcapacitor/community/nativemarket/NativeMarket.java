@@ -15,8 +15,8 @@ public class NativeMarket extends Plugin {
   @PluginMethod
   public void openStoreListing(PluginCall call) {
     try {
-      if (call.hasOption("appId")) {
-        String appId = call.getString("appId");
+      if (call.hasOption("playStoreId")) {
+        String appId = call.getString("playStoreId");
 
         Context context = this.bridge.getActivity().getApplicationContext();
         Intent intent = new Intent(
@@ -28,7 +28,7 @@ public class NativeMarket extends Plugin {
 
         call.resolve();
       } else {
-        call.reject("appId is missing");
+        call.reject("playStoreId is missing");
       }
     } catch (Exception ex) {
       call.error(ex.getLocalizedMessage());

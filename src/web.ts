@@ -2,7 +2,7 @@ import { WebPlugin } from "@capacitor/core";
 import { NativeMarketPlugin } from "./definitions";
 
 export class NativeMarketWeb extends WebPlugin implements NativeMarketPlugin {
-  openStoreListing(_options: { appId: string }): Promise<void> {
+  openStoreListing(_options: { appStoreId: number , playStoreId : string }): Promise<void> {
     throw new Error("Method not implemented.");
   }
 
