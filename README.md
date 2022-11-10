@@ -64,7 +64,8 @@ import { NativeMarket } from "@capgo/native-market";
  * @returns void
  */
 NativeMarket.openStoreListing({
-  appId: "com.example.app",
+  appStoreId: 1234567,
+  playStoreId: "com.example.app"
 });
 
 /**
@@ -110,14 +111,14 @@ NativeMarket.search({
 ### openStoreListing(...)
 
 ```typescript
-openStoreListing(options: { appId: string; }) => Promise<void>
+openStoreListing(options: { appStoreId: number, playStoreId: string; }) => Promise<void>
 ```
 
 This method will launch link in Play/App Store.
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ appId: string; }</code> |
+| Param         | Type                                                      |
+| ------------- |-----------------------------------------------------------|
+| **`options`** | <code>{ appStoreId: number, playStoreId: string; }</code> |
 
 **Since:** 1.0.0
 
