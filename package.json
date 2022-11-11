@@ -67,6 +67,11 @@
       "src": "android"
     }
   },
+  "prettier": "@ionic/prettier-config",
+  "swiftlint": "@ionic/swiftlint-config",
+  "eslintConfig": {
+    "extends": "@ionic/eslint-config/recommended"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/riderx/native-market"
