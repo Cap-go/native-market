@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.12](https://github.com/riderx/native-market/compare/v1.0.11...v1.0.12) (2022-11-11)
+
+
+### Bug Fixes
+
+* ios openStoreListing ([3a70a71](https://github.com/riderx/native-market/commit/3a70a7149a21c2c5a727d081473b1c37bb6a5b2e))
+
 ### [1.0.11](https://github.com/riderx/native-market/compare/v1.0.10...v1.0.11) (2022-11-10)
 
 
