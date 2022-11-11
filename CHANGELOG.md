@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/riderx/native-market/compare/v1.1.1...v1.1.2) (2022-11-11)
+
+
+### Bug Fixes
+
+* lint issue ([e7ccc1f](https://github.com/riderx/native-market/commit/e7ccc1faad0365faa9e841b035b070065ffbbae3))
+
 ### [1.1.1](https://github.com/riderx/native-market/compare/v1.1.0...v1.1.1) (2022-11-11)
 
 
