@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/riderx/native-market/compare/v1.1.4...v1.1.5) (2022-11-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.android.tools.build:gradle to v7.3.1 ([c1a7d2a](https://github.com/riderx/native-market/commit/c1a7d2a7c7acb330ae6e6b028cd54559eed3adec))
+
 ### [1.1.4](https://github.com/riderx/native-market/compare/v1.1.3...v1.1.4) (2022-11-22)
 
 ### [1.1.3](https://github.com/riderx/native-market/compare/v1.1.2...v1.1.3) (2022-11-22)
