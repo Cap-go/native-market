@@ -31,13 +31,9 @@ public class NativeMarket: CAPPlugin {
             call.reject("appId is missing")
             return
         }
-        let country = call.getString("country") ?? null
+        let country = call.getString("country") ?? ""
         do {
-            if (country)    {
-                let url = URL(string: "http://itunes.apple.com/lookup?bundleId=\(appId)&country=\(country)")
-            } else {
-                let url = URL(string: "http://itunes.apple.com/lookup?bundleId=\(appId)")
-            }
+            let url = URL(string: "http://itunes.apple.com/lookup?bundleId=\(appId)&country=\(country)")
             let data = try Data(contentsOf: url!)
             let decoder = JSONDecoder()
             let apps = try! decoder.decode(APIResult.self, from: data).apps
