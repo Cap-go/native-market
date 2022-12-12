@@ -3,6 +3,7 @@ export interface NativeMarketPlugin {
    * This method will launch link in Play/App Store.
    *
    * @param {String} appId - ID of your application. Eg. com.example.app
+   * @param {String} [country] - International country code if application is not published in the US App store (only for iOS). Eg. IT
    *
    * @returns void
    *
