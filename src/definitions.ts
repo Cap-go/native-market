@@ -3,12 +3,13 @@ export interface NativeMarketPlugin {
    * This method will launch link in Play/App Store.
    *
    * @param {String} appId - ID of your application. Eg. com.example.app
+   * @param {String} [country] - International country code if application is not published in the US App store (only for iOS). Eg. IT
    *
    * @returns void
    *
    * @since 1.0.0
    */
-  openStoreListing(options: { appId: string }): Promise<void>;
+  openStoreListing(options: { appId: string; country?: string }): Promise<void>;
   /**
    * This method will deep-link directly to an Play/App store listing page.
    *

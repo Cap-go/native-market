@@ -57,15 +57,17 @@ No configuration required for this plugin
 ## Usage
 
 ```typescript
-import { NativeMarket } from "@capgo/native-market";
+import { NativeMarket } from '@capgo/native-market';
 
 /**
  * This method will launch link in Play/App Store.
  * @param appId - ID of your application. Eg. com.example.app
+ * @param [country] - International country code if application is not published in the US App store (only for iOS). Eg. IT
  * @returns void
  */
 NativeMarket.openStoreListing({
-  appId: "com.example.app",
+  appId: 'com.example.app',
+  country: 'IT',
 });
 
 /**
@@ -74,7 +76,7 @@ NativeMarket.openStoreListing({
  * @returns void
  */
 NativeMarket.openDevPage({
-  devId: "5700313618786177705",
+  devId: '5700313618786177705',
 });
 
 /**
@@ -83,7 +85,7 @@ NativeMarket.openDevPage({
  * @returns void
  */
 NativeMarket.openCollection({
-  name: "featured",
+  name: 'featured',
 });
 
 /**
@@ -92,7 +94,7 @@ NativeMarket.openCollection({
  * @returns void
  */
 NativeMarket.openEditorChoicePage({
-  editorChoice: "editorial_fitness_apps_us",
+  editorChoice: 'editorial_fitness_apps_us',
 });
 
 /**
@@ -101,7 +103,7 @@ NativeMarket.openEditorChoicePage({
  * @returns void
  */
 NativeMarket.search({
-  terms: "capacitor",
+  terms: 'capacitor',
 });
 ```
 
@@ -111,14 +113,14 @@ NativeMarket.search({
 ### openStoreListing(...)
 
 ```typescript
-openStoreListing(options: { appId: string; }) => Promise<void>
+openStoreListing(options: { appId: string; country?: string; }) => Promise<void>
 ```
 
 This method will launch link in Play/App Store.
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ appId: string; }</code> |
+| Param         | Type                                              |
+| ------------- | ------------------------------------------------- |
+| **`options`** | <code>{ appId: string; country?: string; }</code> |
 
 **Since:** 1.0.0
 
@@ -196,3 +198,7 @@ Only in Android.
 ---
 
 </docgen-api>
+
+## iOS Notes
+
+If your app is not published in the US App Store, you might not be able to find it. In this case you must specify country code for lookup search to work.
