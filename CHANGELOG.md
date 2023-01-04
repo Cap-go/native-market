@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.17](https://github.com/riderx/native-market/compare/v1.1.16...v1.1.17) (2023-01-04)
+
+
+### Bug Fixes
+
+* use pnpm instead of npm ([97219f2](https://github.com/riderx/native-market/commit/97219f23b1bd9287e6bc93ba8115e39084759a7c))
+
 ### [1.1.16](https://github.com/riderx/native-market/compare/v1.1.15...v1.1.16) (2023-01-04)
 
 ### [1.1.15](https://github.com/riderx/native-market/compare/v1.1.14...v1.1.15) (2023-01-04)
