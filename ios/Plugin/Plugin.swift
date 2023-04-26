@@ -33,7 +33,7 @@ public class NativeMarket: CAPPlugin {
         }
         let country = call.getString("country") ?? ""
         do {
-            let url = URL(string: "http://itunes.apple.com/lookup?bundleId=\(appId)&country=\(country)")
+            let url = URL(string: "https://itunes.apple.com/lookup?bundleId=\(appId)&country=\(country)")
             let data = try Data(contentsOf: url!)
             let decoder = JSONDecoder()
             let apps = try! decoder.decode(APIResult.self, from: data).apps
