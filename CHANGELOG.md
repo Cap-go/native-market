@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.32](https://github.com/riderx/native-market/compare/v1.1.31...v1.1.32) (2023-04-26)
+
+
+### Bug Fixes
+
+* use https ([3aa12dd](https://github.com/riderx/native-market/commit/3aa12dd6fdc768752ff5f6b25722f97aabd561a3))
+
 ### [1.1.31](https://github.com/riderx/native-market/compare/v1.1.30...v1.1.31) (2023-04-24)
 
 ### [1.1.30](https://github.com/riderx/native-market/compare/v1.1.29...v1.1.30) (2023-04-17)
