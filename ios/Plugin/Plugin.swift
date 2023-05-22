@@ -5,7 +5,7 @@ struct APIResult: Codable {
     struct App: Codable {
         let trackId: Int
 
-        enum CodingKeys : String, CodingKey {
+        enum CodingKeys: String, CodingKey {
             case trackId
         }
     }
@@ -13,7 +13,7 @@ struct APIResult: Codable {
     let resultCount: Int
     let apps: [App]
 
-    enum CodingKeys : String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case resultCount
         case apps = "results"
     }
@@ -25,7 +25,7 @@ struct APIResult: Codable {
  */
 @objc(NativeMarket)
 public class NativeMarket: CAPPlugin {
-    
+
     @objc func openStoreListing(_ call: CAPPluginCall) {
         guard let appId = call.getString("appId") else {
             call.reject("appId is missing")
@@ -39,11 +39,11 @@ public class NativeMarket: CAPPlugin {
             let apps = try! decoder.decode(APIResult.self, from: data).apps
             let urlStore = "itms-apps://itunes.apple.com/app/id\(apps[0].trackId)"
             let appUrl = URL(string: urlStore)
-            
+
             DispatchQueue.main.async {
                 if UIApplication.shared.canOpenURL(appUrl!) {
                     if #available(iOS 10.0, *) {
-                        UIApplication.shared.open(appUrl!, options: [:]) { (success) in
+                        UIApplication.shared.open(appUrl!, options: [:]) { (_) in
                             call.resolve()
                         }
                     } else {
@@ -57,29 +57,29 @@ public class NativeMarket: CAPPlugin {
             call.reject("trackId cannot be found from appId")
         }
     }
-    
+
     @objc func openDevPage(_ call: CAPPluginCall) {
         call.resolve() // TODO: Implement
     }
-    
+
     @objc func openCollection(_ call: CAPPluginCall) {
         call.resolve() // TODO: Implement
     }
-    
+
     @objc func openEditorChoicePage(_ call: CAPPluginCall) {
         call.resolve() // TODO: Implement
     }
-    
+
     @objc func search(_ call: CAPPluginCall) {
         if call.hasOption("terms") {
             let terms = call.getString("terms")
-            
+
             let url = "itms-apps://itunes.apple.com/search?term=" + terms!
             let appUrl = URL(string: url)
-            
+
             if UIApplication.shared.canOpenURL(appUrl!) {
                 if #available(iOS 10.0, *) {
-                    UIApplication.shared.open(appUrl!, options: [:]) { (success) in
+                    UIApplication.shared.open(appUrl!, options: [:]) { (_) in
                         call.resolve()
                     }
                 } else {
