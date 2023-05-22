@@ -133,7 +133,8 @@ This method will launch link in Play/App Store.
 
 **Since:** 1.0.0
 
----
+--------------------
+
 
 ### openDevPage(...)
 
@@ -153,7 +154,8 @@ Only in Android.
 
 **Since:** 1.0.0
 
----
+--------------------
+
 
 ### openCollection(...)
 
@@ -172,7 +174,8 @@ Only in Android.
 
 **Since:** 1.0.0
 
----
+--------------------
+
 
 ### openEditorChoicePage(...)
 
@@ -192,7 +195,8 @@ Only in Android.
 
 **Since:** 1.0.0
 
----
+--------------------
+
 
 ### search(...)
 
@@ -212,7 +216,7 @@ Only in Android.
 
 **Since:** 1.0.0
 
----
+--------------------
 
 </docgen-api>
 
