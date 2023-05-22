@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v6.0.0) (2023-05-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to capacitor 5
+
+### Features
+
+* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
+
+
+### Bug Fixes
+
+* ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+* lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
+* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+
 ## [5.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v5.0.0) (2023-05-22)
 
 
