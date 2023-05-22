@@ -113,7 +113,7 @@ NativeMarket.search({
 ### openStoreListing(...)
 
 ```typescript
-openStoreListing(options: { appId: string; country?: string; }) => Promise<void>
+openStoreListing(options: { appId: string; country?: string; }) => any
 ```
 
 This method will launch link in Play/App Store.
@@ -122,6 +122,8 @@ This method will launch link in Play/App Store.
 | ------------- | ------------------------------------------------- |
 | **`options`** | <code>{ appId: string; country?: string; }</code> |
 
+**Returns:** <code>any</code>
+
 **Since:** 1.0.0
 
 ---
@@ -129,7 +131,7 @@ This method will launch link in Play/App Store.
 ### openDevPage(...)
 
 ```typescript
-openDevPage(options: { devId: string; }) => Promise<void>
+openDevPage(options: { devId: string; }) => any
 ```
 
 This method will deep-link directly to an Play/App store listing page.
@@ -140,6 +142,8 @@ Only in Android.
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ devId: string; }</code> |
 
+**Returns:** <code>any</code>
+
 **Since:** 1.0.0
 
 ---
@@ -147,7 +151,7 @@ Only in Android.
 ### openCollection(...)
 
 ```typescript
-openCollection(options: { name: string; }) => Promise<void>
+openCollection(options: { name: string; }) => any
 ```
 
 This method will link users to a collection or top charts.
@@ -157,6 +161,8 @@ Only in Android.
 | ------------- | ------------------------------ |
 | **`options`** | <code>{ name: string; }</code> |
 
+**Returns:** <code>any</code>
+
 **Since:** 1.0.0
 
 ---
@@ -164,7 +170,7 @@ Only in Android.
 ### openEditorChoicePage(...)
 
 ```typescript
-openEditorChoicePage(options: { editorChoice: string; }) => Promise<void>
+openEditorChoicePage(options: { editorChoice: string; }) => any
 ```
 
 This method will link users to Editor's choice page.
@@ -175,6 +181,8 @@ Only in Android.
 | ------------- | -------------------------------------- |
 | **`options`** | <code>{ editorChoice: string; }</code> |
 
+**Returns:** <code>any</code>
+
 **Since:** 1.0.0
 
 ---
@@ -182,7 +190,7 @@ Only in Android.
 ### search(...)
 
 ```typescript
-search(options: { terms: string; }) => Promise<void>
+search(options: { terms: string; }) => any
 ```
 
 This method will link users to custom search query.
@@ -192,6 +200,8 @@ Only in Android.
 | Param         | Type                            |
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ terms: string; }</code> |
+
+**Returns:** <code>any</code>
 
 **Since:** 1.0.0
 
