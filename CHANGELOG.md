@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.1](https://github.com/riderx/native-market/compare/2.0.0...5.0.1) (2023-06-21)
+
+
+### Bug Fixes
+
+* pnpm ([8fec601](https://github.com/riderx/native-market/commit/8fec6011bd30caa8d36f5d344bd930dc0ed8df2e))
+* test fix commit and see if CI is sane now ([fba5857](https://github.com/riderx/native-market/commit/fba585739e28861bc9d5258e17896fdbb85626fe))
+
 ## [2.0.0](https://github.com/riderx/native-market/compare/5.0.0...2.0.0) (2023-06-21)
 
 ### Bug Fixes
