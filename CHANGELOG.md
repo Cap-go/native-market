@@ -2,202 +2,206 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [11.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v11.0.0) (2023-06-01)
-
+## [5.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v5.0.0) (2023-06-21)
 
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
-* **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
-* **deps:** update dependency com.android.tools.build:gradle to v8.0.2 ([13fb865](https://github.com/riderx/native-market/commit/13fb8653531301589111dd0d3bb01c272f090c36))
-* lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
-* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
-* lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
-* pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
-* remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+- **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
+- **deps:** update dependency com.android.tools.build:gradle to v8.0.2 ([13fb865](https://github.com/riderx/native-market/commit/13fb8653531301589111dd0d3bb01c272f090c36))
+- lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
+- pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
+- remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- version number ([c0524f3](https://github.com/riderx/native-market/commit/c0524f349642cc5d13eb6b3e1d2ab24e20a4d35e))
+
+## [11.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v11.0.0) (2023-06-01)
+
+### ⚠ BREAKING CHANGES
+
+- upgrade to capacitor 5
+
+### Features
+
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
+
+### Bug Fixes
+
+- ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+- **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
+- **deps:** update dependency com.android.tools.build:gradle to v8.0.2 ([13fb865](https://github.com/riderx/native-market/commit/13fb8653531301589111dd0d3bb01c272f090c36))
+- lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
+- pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
+- remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [10.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v10.0.0) (2023-05-29)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
-* **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
-* **deps:** update dependency com.android.tools.build:gradle to v8.0.2 ([13fb865](https://github.com/riderx/native-market/commit/13fb8653531301589111dd0d3bb01c272f090c36))
-* lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
-* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
-* lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
-* pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
-* remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+- **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
+- **deps:** update dependency com.android.tools.build:gradle to v8.0.2 ([13fb865](https://github.com/riderx/native-market/commit/13fb8653531301589111dd0d3bb01c272f090c36))
+- lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
+- pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
+- remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [9.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v9.0.0) (2023-05-23)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
-* **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
-* lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
-* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
-* lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
-* pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
-* remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+- **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
+- lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
+- pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
+- remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [8.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v8.0.0) (2023-05-23)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
-* **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
-* lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
-* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
-* lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
-* pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
-* remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+- **deps:** update dependency com.android.tools.build:gradle to v8.0.1 ([828747d](https://github.com/riderx/native-market/commit/828747d2f129a3c69684d8a5b4d3ae93bc8fcef3))
+- lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
+- pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
+- remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [7.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v7.0.0) (2023-05-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
-* lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
-* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
-* lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
-* pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
-* remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+- lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- lint issue ([9d5bef2](https://github.com/riderx/native-market/commit/9d5bef22ab08e56852dcc3f1a937abd9d1d6d531))
+- pre commit hook ([a494f8f](https://github.com/riderx/native-market/commit/a494f8f9f0a96da74e2aeb8495959bcf5d8f90ad))
+- remove prepare ([ac1e9c4](https://github.com/riderx/native-market/commit/ac1e9c4450c77c8852cd7f13205751f8dfb386a0))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [6.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v6.0.0) (2023-05-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
-* lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
-* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+- lint ([30ff568](https://github.com/riderx/native-market/commit/30ff5685d87b4bca8d0cd310072f659708d50060))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [5.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v5.0.0) (2023-05-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
-* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- ci name ([06e37b9](https://github.com/riderx/native-market/commit/06e37b9f55105499fffe70b48c2778538f4862fe))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [4.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v4.0.0) (2023-05-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- lint ([1793fff](https://github.com/riderx/native-market/commit/1793fff6e2b0d9c78ec802f12bf7e0c794fa9cff))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [3.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v3.0.0) (2023-05-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
-
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### Bug Fixes
 
-* update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
+- update deps ([d6f9d49](https://github.com/riderx/native-market/commit/d6f9d494523077f16911b1be1682c597ad762eec))
 
 ## [2.0.0](https://github.com/riderx/native-market/compare/v1.1.36...v2.0.0) (2023-05-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to capacitor 5
+- upgrade to capacitor 5
 
 ### Features
 
-* upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
+- upgrade to capacitor 5 ([ce6fcac](https://github.com/riderx/native-market/commit/ce6fcac7705d2dc9fe2872a8106f8ddc1ba9ff84))
 
 ### [1.1.36](https://github.com/riderx/native-market/compare/v1.1.35...v1.1.36) (2023-05-22)
 
@@ -209,10 +213,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.32](https://github.com/riderx/native-market/compare/v1.1.31...v1.1.32) (2023-04-26)
 
-
 ### Bug Fixes
 
-* use https ([3aa12dd](https://github.com/riderx/native-market/commit/3aa12dd6fdc768752ff5f6b25722f97aabd561a3))
+- use https ([3aa12dd](https://github.com/riderx/native-market/commit/3aa12dd6fdc768752ff5f6b25722f97aabd561a3))
 
 ### [1.1.31](https://github.com/riderx/native-market/compare/v1.1.30...v1.1.31) (2023-04-24)
 
@@ -244,10 +247,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.17](https://github.com/riderx/native-market/compare/v1.1.16...v1.1.17) (2023-01-04)
 
-
 ### Bug Fixes
 
-* use pnpm instead of npm ([97219f2](https://github.com/riderx/native-market/commit/97219f23b1bd9287e6bc93ba8115e39084759a7c))
+- use pnpm instead of npm ([97219f2](https://github.com/riderx/native-market/commit/97219f23b1bd9287e6bc93ba8115e39084759a7c))
 
 ### [1.1.16](https://github.com/riderx/native-market/compare/v1.1.15...v1.1.16) (2023-01-04)
 
@@ -273,10 +275,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.5](https://github.com/riderx/native-market/compare/v1.1.4...v1.1.5) (2022-11-22)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency com.android.tools.build:gradle to v7.3.1 ([c1a7d2a](https://github.com/riderx/native-market/commit/c1a7d2a7c7acb330ae6e6b028cd54559eed3adec))
+- **deps:** update dependency com.android.tools.build:gradle to v7.3.1 ([c1a7d2a](https://github.com/riderx/native-market/commit/c1a7d2a7c7acb330ae6e6b028cd54559eed3adec))
 
 ### [1.1.4](https://github.com/riderx/native-market/compare/v1.1.3...v1.1.4) (2022-11-22)
 
@@ -284,38 +285,33 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.2](https://github.com/riderx/native-market/compare/v1.1.1...v1.1.2) (2022-11-11)
 
-
 ### Bug Fixes
 
-* lint issue ([e7ccc1f](https://github.com/riderx/native-market/commit/e7ccc1faad0365faa9e841b035b070065ffbbae3))
+- lint issue ([e7ccc1f](https://github.com/riderx/native-market/commit/e7ccc1faad0365faa9e841b035b070065ffbbae3))
 
 ### [1.1.1](https://github.com/riderx/native-market/compare/v1.1.0...v1.1.1) (2022-11-11)
 
-
 ### Bug Fixes
 
-* build ([8dd9629](https://github.com/riderx/native-market/commit/8dd962926fc81899907e5fed351ecb9455b6ae18))
+- build ([8dd9629](https://github.com/riderx/native-market/commit/8dd962926fc81899907e5fed351ecb9455b6ae18))
 
 ## [1.1.0](https://github.com/riderx/native-market/compare/v1.0.12...v1.1.0) (2022-11-11)
 
-
 ### Features
 
-* add ci to build native ([52ba907](https://github.com/riderx/native-market/commit/52ba90783767f703d1bbc8072966216f55843ecd))
+- add ci to build native ([52ba907](https://github.com/riderx/native-market/commit/52ba90783767f703d1bbc8072966216f55843ecd))
 
 ### [1.0.12](https://github.com/riderx/native-market/compare/v1.0.11...v1.0.12) (2022-11-11)
 
-
 ### Bug Fixes
 
-* ios openStoreListing ([3a70a71](https://github.com/riderx/native-market/commit/3a70a7149a21c2c5a727d081473b1c37bb6a5b2e))
+- ios openStoreListing ([3a70a71](https://github.com/riderx/native-market/commit/3a70a7149a21c2c5a727d081473b1c37bb6a5b2e))
 
 ### [1.0.11](https://github.com/riderx/native-market/compare/v1.0.10...v1.0.11) (2022-11-10)
 
-
 ### Bug Fixes
 
-* update dependency ([9133f99](https://github.com/riderx/native-market/commit/9133f996996c4229117f790ba62c4322e48147f0))
+- update dependency ([9133f99](https://github.com/riderx/native-market/commit/9133f996996c4229117f790ba62c4322e48147f0))
 
 ### [1.0.10](https://github.com/riderx/native-market/compare/v1.0.9...v1.0.10) (2022-11-10)
 
