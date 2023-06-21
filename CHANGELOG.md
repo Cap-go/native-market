@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.3](https://github.com/riderx/native-market/compare/5.0.2...5.0.3) (2023-06-21)
+
+
+### Bug Fixes
+
+* use publish v2 ([9d4e5f4](https://github.com/riderx/native-market/commit/9d4e5f4e4e1f52aedc83003770f2d7c2ca40de9c))
+
 ### [5.0.2](https://github.com/riderx/native-market/compare/5.0.1...5.0.2) (2023-06-21)
 
 
