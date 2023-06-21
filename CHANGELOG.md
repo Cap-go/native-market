@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.2](https://github.com/riderx/native-market/compare/5.0.1...5.0.2) (2023-06-21)
+
+
+### Bug Fixes
+
+* ios build ([f4c88a1](https://github.com/riderx/native-market/commit/f4c88a142cb9ab98b4294cb01323e131c9f1a2e3))
+
 ### [5.0.1](https://github.com/riderx/native-market/compare/2.0.0...5.0.1) (2023-06-21)
 
 
