@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.5](https://github.com/riderx/native-market/compare/5.0.4...5.0.5) (2023-11-13)
+
+
+### Bug Fixes
+
+* lint issue ([afca77c](https://github.com/riderx/native-market/commit/afca77c250d500966c2fd5db19ab209031b9000a))
+
 ### [5.0.4](https://github.com/riderx/native-market/compare/5.0.3...5.0.4) (2023-11-13)
 
 
