@@ -33,28 +33,39 @@ public class NativeMarket: CAPPlugin {
         }
         let country = call.getString("country") ?? ""
         do {
-            let url = URL(string: "https://itunes.apple.com/lookup?bundleId=\(appId)&country=\(country)")
-            let data = try Data(contentsOf: url!)
+            guard let url = URL(string: "https://itunes.apple.com/lookup?bundleId=\(appId)&country=\(country)") else {
+                throw NSError(domain: "Invalid URL", code: 0, userInfo: nil)
+            }
+            let data = try Data(contentsOf: url)
             let decoder = JSONDecoder()
-            let apps = try! decoder.decode(APIResult.self, from: data).apps
-            let urlStore = "itms-apps://itunes.apple.com/app/id\(apps[0].trackId)"
-            let appUrl = URL(string: urlStore)
+            let apiResult = try decoder.decode(APIResult.self, from: data)
+
+            guard let firstApp = apiResult.apps.first else {
+                print("No apps found for given appId")
+                call.reject("No apps found for given appId")
+                return
+            }
+
+            let urlStore = "itms-apps://itunes.apple.com/app/id\(firstApp.trackId)"
+            guard let appUrl = URL(string: urlStore) else {
+                throw NSError(domain: "Invalid Store URL", code: 0, userInfo: nil)
+            }
 
             DispatchQueue.main.async {
-                if UIApplication.shared.canOpenURL(appUrl!) {
+                if UIApplication.shared.canOpenURL(appUrl) {
                     if #available(iOS 10.0, *) {
-                        UIApplication.shared.open(appUrl!, options: [:]) { (_) in
+                        UIApplication.shared.open(appUrl, options: [:]) { (_) in
                             call.resolve()
                         }
                     } else {
-                        UIApplication.shared.openURL(appUrl!)
+                        UIApplication.shared.openURL(appUrl)
                         call.resolve()
                     }
                 }
             }
         } catch {
-            print("trackId cannot be found from appId")
-            call.reject("trackId cannot be found from appId")
+            print("Error: \(error.localizedDescription)")
+            call.reject("Error: \(error.localizedDescription)")
         }
     }
 
