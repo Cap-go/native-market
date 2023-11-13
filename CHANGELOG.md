@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.4](https://github.com/riderx/native-market/compare/5.0.3...5.0.4) (2023-11-13)
+
+
+### Bug Fixes
+
+* crash if no app found ([cdaa081](https://github.com/riderx/native-market/commit/cdaa081f287e1352d3d2ca07aa73801a4d531ed3))
+* lockfile ([92e7e0d](https://github.com/riderx/native-market/commit/92e7e0d42efa6ee63377b044f8b9eaa110c23696))
+* remove husky ([fb54dab](https://github.com/riderx/native-market/commit/fb54dabed5fe84a70306aafcca2e10a17fc97dbc))
+
 ### [5.0.3](https://github.com/riderx/native-market/compare/5.0.2...5.0.3) (2023-06-21)
 
 
