@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/riderx/native-market/compare/5.0.5...6.0.0) (2024-04-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to capacitor 6
+
+### Features
+
+* upgrade to capacitor 6 ([f4e1970](https://github.com/riderx/native-market/commit/f4e1970a0deb8405adb7d91dad654fb1bcfe9b12))
+
 ### [5.0.5](https://github.com/riderx/native-market/compare/5.0.4...5.0.5) (2023-11-13)
 
 
