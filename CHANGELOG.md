@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.1](https://github.com/riderx/native-market/compare/6.0.0...6.0.1) (2024-04-30)
+
+
+### Bug Fixes
+
+* pnpm version ([0c8fb0d](https://github.com/riderx/native-market/commit/0c8fb0dd0e9d1674dbf1edccb2835202aa18c630))
+
 ## [6.0.0](https://github.com/riderx/native-market/compare/5.0.5...6.0.0) (2024-04-30)
 
 
