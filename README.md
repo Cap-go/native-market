@@ -1,16 +1,11 @@
 # Capacitor Native Market Plugin
 
-<a href="https://capgo.app/">
-  <img
-    src="https://raw.githubusercontent.com/Cap-go/capgo/main/assets/capgo_banner.png"
-    alt="Capgo - Instant updates for capacitor"
-  />
-</a>
+ <a href="https://capgo.app/"><img src='https://raw.githubusercontent.com/Cap-go/capgo/main/assets/capgo_banner.png' alt='Capgo - Instant updates for capacitor'/></a>
 
 <div align="center">
-  <h2>
-    <a href="https://capgo.app/">Check out: Capgo — Instant updates for capacitor</a>
-  </h2>
+  <h2><a href="https://capgo.app/?ref=plugin"> ➡️ Get Instant updates for your App with Capgo 🚀</a></h2>
+  <h2><a href="https://capgo.app/consulting/?ref=plugin"> Fix your annoying bug now, Hire a Capacitor expert 💪</a></h2>
+</div>
 </div>
 
 Capacitor community plugin for native market for Play Store/App Store.
