@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.1.0](https://github.com/Cap-go/native-market/compare/6.0.2...7.1.0) (2025-02-08)
+
+
+### Features
+
+* migrate to capacitor v7 ([b7a6df1](https://github.com/Cap-go/native-market/commit/b7a6df1e27c87d30ae8bccccebb04491844f32ed))
+
+
+### Bug Fixes
+
+* CICD ([c67070f](https://github.com/Cap-go/native-market/commit/c67070fd0e8cee620f405acbfc22d98cb96aab03))
+
 ### [6.0.2](https://github.com/riderx/native-market/compare/6.0.1...6.0.2) (2024-09-05)
 
 ### [6.0.1](https://github.com/riderx/native-market/compare/6.0.0...6.0.1) (2024-04-30)
