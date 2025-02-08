@@ -25,7 +25,15 @@ struct APIResult: Codable {
  */
 @objc(NativeMarket)
 public class NativeMarket: CAPPlugin {
-
+   public let identifier = "InAppBrowserPlugin"
+    public let jsName = "InAppBrowser"
+    public let pluginMethods: [CAPPluginMethod] = [
+        CAPPluginMethod(name: "openStoreListing", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "openDevPage", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "openCollection", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "openEditorChoicePage", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "search", returnType: CAPPluginReturnPromise),
+    ]
     @objc func openStoreListing(_ call: CAPPluginCall) {
         guard let appId = call.getString("appId") else {
             call.reject("appId is missing")
