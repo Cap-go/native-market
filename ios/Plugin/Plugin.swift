@@ -24,7 +24,7 @@ struct APIResult: Codable {
  * here: https://capacitor.ionicframework.com/docs/plugins/ios
  */
 @objc(NativeMarket)
-public class NativeMarket: CAPPlugin {
+public class NativeMarket: CAPPlugin, CAPBridgedPlugin {
    public let identifier = "InAppBrowserPlugin"
     public let jsName = "InAppBrowser"
     public let pluginMethods: [CAPPluginMethod] = [
